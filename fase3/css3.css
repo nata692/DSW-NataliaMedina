@@ -1,0 +1,93 @@
+ /*estilos contenedor*/
+ .contenedor_div_principal {
+    box-shadow: 0 2px 16px -3px #34495e;
+    border-radius: 7px;
+	margin-top: 10px;
+}
+/*menu*/
+.menu_contenedor{
+
+background: #FFA502;
+
+
+}
+
+a:hover{
+color: #fff;
+background: red;
+}
+li{
+	color: blue;
+}
+/*Contenedor principal del menu*/
+.contenedor_principal_menu{
+	padding-left: 100px;
+	padding-right: 100px;
+	box-shadow: 0 2px 16px -3px red;
+    border-radius: 7px;
+
+	
+}
+/*justificar los parrafos*/
+p{
+	text-align: justify;
+}
+/*estilos contenedores*/
+.contendor_introduccion{
+	box-shadow: 0 2px 16px -3px blue;
+    border-radius: 7px;
+}
+.conetenedor_objetivos{
+	box-shadow: 0 2px 16px -3px green;
+    border-radius: 7px;
+}
+.contenedor_interaccion{
+	box-shadow: 0 2px 16px -3px red;
+    border-radius: 7px;
+}
+.contenedor_usuario{
+	box-shadow: 0 2px 16px -3px blue;
+    border-radius: 7px;
+}
+/*Pie de agina*/
+.pie_pagina{
+	height: 50px;
+}
+/*estilos imagen*/
+.imagen_tamanioo{
+	width: 200px;
+}
+.imagen_tamanioo:hover{
+	width: 250px;
+}
+.contenedor_imagen{
+	box-shadow: -2px 4px 5px 5px #34495e;
+    border-radius: 7px;
+	width: 250px;
+}
+/*Estilos videos*/
+.video_estilo{
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+.img_natali{
+	width: 150px;
+}
+.img_natali:hover{
+	width: 200px;
+}
+.footer {
+	position: fixed; /* lo dejamos fijo para usar propiedad bottom */
+	bottom: 0; /* lo dejamos abajo de la pagina */
+	z-index: -1; /* atras del contenido previo */
+	width: 100%; /* para que el pie use todo el ancho */
+	height: 80px; /* este valor sumado a... */
+	padding-top: 20px; /* ... este valor debe ser ugual al margen inferior de la clase content */
+	/* Lo siguiente es decorativo */
+	color: #fff;
+	font-size: 75%;
+	background: #FFA502;
+	
+	margin-right: 700px;
+  }
